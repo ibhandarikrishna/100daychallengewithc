@@ -1,0 +1,9 @@
+Topic -- String 
+Problem -- To count the occurence of the vowels in a sentence.
+
+input --
+I am the gautam yadav
+
+
+output --
+The occurence of the vowels is : 8

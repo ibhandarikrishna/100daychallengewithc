@@ -1,0 +1,15 @@
+problem -- remove a word or a character from the sentence
+solution -- using string functions
+
+input -- 
+Enter a sentence - 
+what do you want from me...?
+
+enter the word to delete - 
+from me
+
+output --
+what do you want 
+
+explanation --we have used strings in this program to store a sentence and than we have also used string.replace function which 
+replaces the word or a character from the whole sentence.

@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class problem {
+   public static void main(String[] args) {
+      Scanner scan = new Scanner(System.in);
+      System.out.print("Enter a word: ");
+      String word = scan.nextLine();
+      String rev = "";
+      word = word.toUpperCase();
+      System.out.println("String in upper case is :");
+      System.out.println(word);
+      for (int i = word.length() - 1; i >= 0; i--) {
+          rev = rev + word.charAt(i);
+      }
+
+      System.out.println(rev);
+      if(word.equals(rev)){
+        System.out.println("entered string is palindrome");
+      }
+      else
+      System.out.println("entered string is not palindrome");
+        }
+      }

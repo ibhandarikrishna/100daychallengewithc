@@ -1,0 +1,18 @@
+topic -- Linear search in array
+explanation -
+program will ask user for
+n = size of array
+arr[n] = elements of array
+num = Desired element to search in array
+
+And the program will return user --
+the index of the num(desired element)
+Input format -
+3
+11 12 13
+13
+Output -
+element found at index 2.
+
+Constraints -
+0<n<10^8

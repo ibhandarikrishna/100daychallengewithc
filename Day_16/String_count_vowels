@@ -1,0 +1,36 @@
+  import java.util.HashSet;
+    import java.util.Scanner;
+    import java.util.Set;
+    public class problem
+{
+  public static void main(String args[])
+  {
+    Scanner scan = new Scanner(System.in);
+    System.out.println("enter the sentence");
+  String input = scan.nextLine();
+      
+  
+  int count=0;
+  for(int i=0; i<input.length(); i++)
+  {
+    char c = input.charAt(i);
+    // if(input.charAt(i) == search.charAt(i))
+     if(isVowel(c))
+      count++;
+  }
+  System.out.println("The occurence of the vowels is :");
+  System.out.println(count);
+  }
+  public static boolean isVowel(char character)
+  {
+
+      if(character=='a' || character=='A' || character=='e' || character=='E' ||
+              character=='i' || character=='I' || character=='o' || character=='O' ||
+              character=='u' || character=='U'){
+          return true;
+      }else{
+          return false;
+      }
+  }
+
+}

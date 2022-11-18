@@ -1,0 +1,14 @@
+public class problem
+{
+  public static void main(String args[])
+  {
+    Scanner scan = new Scanner(System.in);
+    System.out.println("enter the sentence");
+  String input = scan.nextLine();
+  System.out.println("enter ther word to delete");
+  String p = scan.nextLine();
+  while (input.contains(p))
+  input = input.replaceFirst(p, "");
+  System.out.println(input);
+}
+}

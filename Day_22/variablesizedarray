@@ -1,0 +1,32 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() 
+{
+    int n,q,l,k;
+    vector<vector<int>> v;
+    cin>>n>>q;
+    while(n--)
+    {
+        cin>>l; vector<int> temp;
+        v.push_back(temp);
+        while(l--)
+        {
+            cin>>k;
+            v[v.size()-1].push_back(k);
+        }
+    }
+    while(q--)
+    {
+        int i,j;
+        cin>>i>>j;
+        cout<<v[i][j]<<"\n";
+    }
+    
+    return 0;
+}

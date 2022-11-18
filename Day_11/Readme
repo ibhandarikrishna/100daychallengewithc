@@ -1,0 +1,22 @@
+problem -- Tocheck wether a string is palindrom or not.
+language used -- Java.
+solution --
+In this program we used two strings the first one is to take input from user the another one will store
+the reverse order of the first string. we have also used toUppercase function in order to pass over test
+cases this function will convert any lowercase string to upper case.And after converting to upper case
+we used string.equals() function to compare both  the string if they match then the program will show 
+a message that "The string is palindrom"
+if they do not matches it will show a message that "Entered string is not palindrom".
+This program works fine on the integer type input and  also works fine on special characters.
+
+input --
+raar
+output -
+Entered string in upper case is : 
+RAAR
+RAAR
+Entered string is palindrom.
+
+complexity --
+Time complexity - O(n)
+space complexity - O(1)

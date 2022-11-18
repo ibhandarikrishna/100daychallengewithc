@@ -1,0 +1,23 @@
+problem -- if a element repeats in an array then print the last index of that element.
+
+solution -- used binary search using recursive method.
+Ex --
+arr[5] = {10,11,12,12,12}
+first index  = 2
+last index = 4
+
+input screen -
+n = size of array = 4
+n elements of array =10 11 11 11 
+
+output - 
+first index - 1
+last index - 3
+
+Constraints - 
+0<n<=10^8
+
+time coplexity - O(log n)
+Space complexity - O(log n)
+
+
